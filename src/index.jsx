@@ -1,12 +1,15 @@
-import React, { Component } from "react";
+import React from "react";
 import ReactDOM from "react-dom";
 /* Styles */
 import "./style.scss";
 
-class App extends Component {
-  render() {
-    return <div>App</div>;
-  }
-}
+const App = () => {
+  return (
+    <div>
+      App
+      <p>asasasasas</p>
+    </div>
+  );
+};
 
 ReactDOM.render(<App />, document.getElementById("root"));
