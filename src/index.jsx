@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 /* Screens */
-import ScreenHome from "./screens/Home";
+import Routes from "./routes";
 /* Styles */
 import "./assets/styles/main.scss";
 
 const App = () => {
-  return <ScreenHome />;
+  return <Routes />;
 };
 
 ReactDOM.render(<App />, document.getElementById("root"));
