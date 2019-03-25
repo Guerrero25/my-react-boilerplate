@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+
+  & > div#root {
+    background: rgba($color: #000000, $alpha: 0.3);
+  }
+}
