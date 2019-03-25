@@ -1,15 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
+/* Screens */
+import ScreenHome from "./screens/Home";
 /* Styles */
-import "./style.scss";
+import "./assets/styles/main.scss";
 
 const App = () => {
-  return (
-    <div>
-      App
-      <p>asasasasas</p>
-    </div>
-  );
+  return <ScreenHome />;
 };
 
 ReactDOM.render(<App />, document.getElementById("root"));

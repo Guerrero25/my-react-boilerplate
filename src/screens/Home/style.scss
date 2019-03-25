@@ -1,0 +1,11 @@
+.screen-home {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+
+  .screen-home-content {
+    max-height: 250px;
+    max-width: 250px;
+  }
+}

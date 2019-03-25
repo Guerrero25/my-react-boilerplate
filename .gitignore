@@ -85,4 +85,4 @@ typings/
 .dynamodb/
 
 # Bundle files
-build
+dist
