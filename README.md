@@ -18,7 +18,7 @@ My own boilerplate to create robust app with react
 
 - [ ] Add testing config
 
-- [ ] Add eslint and prettier config
+- [x] Add eslint and prettier config
 
 - [ ] Add typescript
 
